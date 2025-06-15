@@ -1,0 +1,67 @@
+/*Reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI',Verdana, sans-serif;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Card container*/
+.form-container{
+  width: 100%;
+  max-width: 450px;
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+/*Form title*/
+h2{
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0072ff;
+  font-weight: bold;
+}
+/*Input fields*/
+input{
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  transition: border-color 0.3s;
+}
+input:focus{
+  border-bottom-color: #00c6ff;
+  outline: none;
+}
+/*Error messages*/
+.error{
+  color: red;
+  font-size: 0.8em;
+  margin-top: -25px;
+  margin-bottom: 15px;
+}
+/*Submit Button*/
+button{
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+button:hover{
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}

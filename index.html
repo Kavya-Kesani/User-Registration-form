@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <form id="registrationForm">
+      <h2>Registration Form</h2>
+
+      <input type="text" id="name" placeholder="Name">
+      <div id="nameError" class="error"></div>
+
+      <input type="email" id="email" placeholder="Email address">
+      <div id="emailError" class="error"></div>
+
+      <input type="password" id="password" placeholder="Password">
+      <div id="passwordError" class="error"></div>
+
+      <input type="password" id="confirmPassword" placeholder="Confirm Password">
+      <div id="confirmPasswordError" class="error"></div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+   <script src="validation.js"></script>
+</body>
+</html>
