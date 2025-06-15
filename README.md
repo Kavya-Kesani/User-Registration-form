@@ -1,4 +1,4 @@
-# 📝 Registration Form with JavaScript Validation
+# 📝 User Registration Form 
 
 A clean and responsive registration form built using **HTML**, **CSS**, and **JavaScript**, featuring real-time input validation for name, email, password, and confirm password fields.
 
