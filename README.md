@@ -2,6 +2,8 @@
 
 A clean and responsive registration form built using **HTML**, **CSS**, and **JavaScript**, featuring real-time input validation for name, email, password, and confirm password fields.
 
+👉 **Live Demo:**[https://userregistration232.netlify.app/](https://userregistration232.netlify.app/)
+
 ---
 
 ## 📁 Project Structure
@@ -13,6 +15,11 @@ registration-form/
 ├── style.css       # Form styling
 ├── validation.js   # JavaScript validation logic
 ```
+---
+
+## 🌐 Live Demo
+
+👉 **[See the live working of the form ](https://userregistration232.netlify.app/)**
 
 ---
 
@@ -27,10 +34,6 @@ registration-form/
 - 📱 Fully responsive and styled using Flexbox & gradients
 
 ---
-## 🌐 Live Demo
-👉 **[Click here to see the live working form ](https://sparkly-gelato-e78298.netlify.app/)**
----
-
 ## 🚀 How to Run
 
 1. **Clone or Download** this repository.
